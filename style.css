@@ -95,3 +95,24 @@ body {
         }
     }
   }
+  figure {
+    bottom: 1rem;
+    position: absolute;
+    margin-top: 4rem;
+    display: flex;
+    align-items: center;
+  
+    figcaption a {
+      color: #525252;
+      text-decoration: none;
+      margin-left: .5rem;
+      font-size: 1.2rem;
+  
+      &:hover {
+        text-decoration: underline;
+      }
+      &:active {
+        font-size: 1rem;
+      }
+    }
+  }
